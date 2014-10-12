@@ -8,8 +8,10 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tratocyr'
+gem 'tratocyr', '~> 0.0.2'
 ```
+* **Note**: Please use version **0.0.2** with fix of loading path.
+  * Version **0.0.1** don't work due to wrong loading path used in gem.
 
 And then execute:
 
@@ -36,3 +38,7 @@ translator.to_cyrillic("Mister Putin molodec!")
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## Developing
+* For running tests use ```rake spec``` command
+* For generating yard documentation use ```rake yard``` command
