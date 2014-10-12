@@ -1,5 +1,5 @@
 # encoding: UTF-8
-require 'lib/tratocyr/mappings'
+require 'tratocyr/mappings'
 
 module Tratocyr
   # Provide functionality for translation between translit symbols string to cyrillic symbols string
