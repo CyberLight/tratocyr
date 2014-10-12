@@ -1,4 +1,4 @@
-# Tratocyr
+# Tratocyr  [![Gem Version](https://badge.fury.io/rb/tratocyr.svg)](http://badge.fury.io/rb/tratocyr)
 
 * Tratocyr - Translit To Cyrillic
 * This gem provide functionality for translation string with translit symbols to string with cyrillic symbols
